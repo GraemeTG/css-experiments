@@ -1,0 +1,141 @@
+/* ELEMENTS AND LAYOUTS */
+.layout {
+  margin: 0 auto;
+  width: 50%;
+  background-color: red;
+}
+
+:root {
+  /* Define colours as colours */
+  --green: #00ebc7;
+  --red: #ff5470;
+  --yellow: #fde24f;
+  --black: #1b2d45;
+  --darkBlue: #00214d;
+  --grey: #bfbfbf;
+  --lightGrey: #f2f4f6;
+  --white: #ffffff;
+}
+
+body {
+  /*background-color: var(--yellow);*/
+}
+
+.wrapper {
+  max-width: 1140px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: underline;
+  color: #222;
+}
+
+.sr-only {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: #fff;
+  background-color: #2fa0f6;
+  min-width: 100px;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/*.button svg {
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+}
+
+.button span {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .button span {
+    display: initial;
+  }
+}
+
+.button--icon {
+  min-width: initial;
+  padding: 0.5rem;
+}*/
+
+#hero {
+  font-family: "Lato", sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
+    url("https://res.cloudinary.com/dydjzhdb7/image/upload/v1619018527/My%20Templates/konstantin-evdokimov-JP0qiWQzjrg-unsplash_ailspo.jpg");
+  height: 800px;
+  background-size: cover;
+  color: #fff;
+  margin: 0;
+}
+
+/*#hero h1 {
+  margin: 0;
+}*/
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li div {
+  margin: 0 1rem;
+  font-weight: 700;
+}
+
+.content {
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 100px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.content button {
+  font-size: 2rem;
+  color: #fff;
+  background-color: #2f70d8;
+  border: none;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.content button:hover {
+  background-color: #08347a;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.content-wrapper {
+  margin-top: -200px;
+}

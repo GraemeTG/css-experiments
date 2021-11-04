@@ -1,0 +1,28 @@
+.dropdown-content {
+  display: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+  background: red;
+}
+
+.dropdown-content {
+  position: absolute;
+  min-width: 160px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background: #d7d2ff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
